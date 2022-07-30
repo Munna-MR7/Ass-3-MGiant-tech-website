@@ -11,3 +11,6 @@
 .card{
     display: flex;
 }
+.fa-brands{
+    font-size: 30px;
+}
