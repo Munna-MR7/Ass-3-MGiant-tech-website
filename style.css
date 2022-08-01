@@ -22,5 +22,9 @@
     padding-right: 0;
 }
 .margin-y{
-    margin: 5% auto !important;
+    margin: 100px auto !important;
+}
+.accordion-button{
+    font-weight: 700 !important;
+    
 }
