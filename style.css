@@ -14,3 +14,10 @@
 .fa-brands{
     font-size: 30px;
 }
+.rounded{
+    padding: 0 !important;
+}
+.card{
+    padding-left: 0;
+    padding-right: 0;
+}
