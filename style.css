@@ -1,6 +1,4 @@
-.dark{
-    background-color: rgb(72, 63, 63);
-}
+
 .margin-bottom-slide{
     margin-bottom: 15% !important;
 }
@@ -8,9 +6,7 @@
     display: flex !important;
     flex-direction: row;
 }
-.card{
-    display: flex;
-}
+
 .fa-brands{
     font-size: 30px;
 }
@@ -26,5 +22,5 @@
 }
 .accordion-button{
     font-weight: 700 !important;
-    
+
 }
