@@ -252,13 +252,13 @@
 
         <!-- Start "Ready to join" part -->
         <div class="container bg-primary m-5 rounded p-5 margin-y">
-            <div class="row row-cols-2 d-flex justify-content-between px-5 py-4">
-                <div class="p-5 text-light">
+            <div class="row row-cols-1 row-cols-lg-2 d-flex justify-content-between px-5 py-4">
+                <div class="p-5 text-light text-center text-lg-start">
                     <h1>Ready to join?</h1>
                     <p class="pt-2">It is a long established fact that a reader will be distracted by the
                         readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="p-5 d-flex justify-content-end align-items-center">
+                <div class="p-5 d-flex justify-content-lg-end justify-content-center align-items-center">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-light btn-lg text-primary fw-bold" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">
@@ -292,126 +292,129 @@
         </div>
         <!-- End "Ready to join" Part -->
         <!-- Start "Question" part -->
-        <div class="container margin-y w-50">
-            <div class="text-center py-4">
-                <h1 class="fw-bold">Frequently Asked Question</h1>
-                <p class="py-3">It's a software and internet service provider. You're feel to ask any question if
-                    interested. However, You will be tested
-                    better Experiences here.</p>
+        <div class="container margin-y d-flex justify-content-center align-items-center ">
+            <div class="col col-12 col-lg-6 ">
+                <div class="text-center py-4">
+                    <h1 class="fw-bold">Frequently Asked Question</h1>
+                    <p class="py-3">It's a software and internet service provider. You're feel to ask any question if
+                        interested. However, You will be tested
+                        better Experiences here.</p>
+                </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button p-4 text-secondary fs-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                What are the main differences between flexbox and grid?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <strong>The main differences between flexbox and grid are: </strong> <br><br>
+                                <ul>
+                                    <li>
+                                        Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox
+                                        can work on either row or columns at a time, but Grids can work on both.
+                                    </li>
+                                    <li>
+                                        Flexbox, gives you more flexibility while working on either element (row or column).
+                                        HTML markup and CSS will be easy to manage in this type of scenario.
+                                    </li>
+                                    <li>
+                                        GRID gives you more flexibility to move around the blocks irrespective of your HTML
+                                        markup.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed p-4 text-secondary fs-5" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                What are the differences between bootstrap and tailwind?
+    
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <strong>The main differences between bootstrap and tailwind are: </strong> <br><br>
+                                <ul>
+                                    <li>
+                                        Tailwind offers predesigned widgets to build a site from scratch with fast UI
+                                        development. While bootstrap comes with a set of pre-styled responsive, mobile-first
+                                        components that possess a definite UI kit.
+                                    </li>
+                                    <li>
+                                        Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility
+                                        and uniqueness. Sites created using Bootstrap follow the generic pattern that makes
+                                        them look identical.
+                                    </li>
+                                    <li>
+                                        Websites created using Tailwind CSS are much more customizable. Websites created
+                                        with Bootstraps are known for their responsiveness and flawless design, but the
+                                        looks are generic and similar.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed p-4 text-secondary fs-5" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                What is CSS box model?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <p>The CSS box model is a container that contains multiple properties including borders,
+                                    margin, padding, and the content itself. It is used to create the design and layout of
+                                    web pages. It can be used as a toolkit for customizing the layout of different elements.
+                                    The web browser renders every element as a rectangular box according to the CSS box
+                                    model.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed p-4 text-secondary fs-5" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                What is a semantic tag in HTML?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+    
+                                <strong>Semantic elements</strong> have meaningful names which tells about type of content. For example
+                                header, footer, table, … etc. HTML5 introduces many semantic elements as mentioned below
+                                which make the code easier to write and understand for the developer as well as instructs
+                                the browser on how to treat them. <br>
+                                <strong>Some important semantic tags are: </strong> <br><br>
+                                <ul>
+                                    <li>&ltarticle&gt tag</li>
+                                    <li>&ltaside&gt   tag</li>
+                                    <li>&ltdetail&gt  tag</li>
+                                    <li>&ltfigure&gt  tag</li>
+                                    <li>&ltfooter&gt  tag</li>
+                                    <li>&ltheader&gt  tag</li>
+                                    <li>&ltmain&gt    tag</li>
+                                    <li>&ltnavt&gt    tag</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button p-4 text-secondary fs-5" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            What are the main differences between flexbox and grid?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                        aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body">
-                            <strong>The main differences between flexbox and grid are: </strong> <br><br>
-                            <ul>
-                                <li>
-                                    Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox
-                                    can work on either row or columns at a time, but Grids can work on both.
-                                </li>
-                                <li>
-                                    Flexbox, gives you more flexibility while working on either element (row or column).
-                                    HTML markup and CSS will be easy to manage in this type of scenario.
-                                </li>
-                                <li>
-                                    GRID gives you more flexibility to move around the blocks irrespective of your HTML
-                                    markup.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed p-4 text-secondary fs-5" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseTwo">
-                            What are the differences between bootstrap and tailwind?
-
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                            <strong>The main differences between bootstrap and tailwind are: </strong> <br><br>
-                            <ul>
-                                <li>
-                                    Tailwind offers predesigned widgets to build a site from scratch with fast UI
-                                    development. While bootstrap comes with a set of pre-styled responsive, mobile-first
-                                    components that possess a definite UI kit.
-                                </li>
-                                <li>
-                                    Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility
-                                    and uniqueness. Sites created using Bootstrap follow the generic pattern that makes
-                                    them look identical.
-                                </li>
-                                <li>
-                                    Websites created using Tailwind CSS are much more customizable. Websites created
-                                    with Bootstraps are known for their responsiveness and flawless design, but the
-                                    looks are generic and similar.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed p-4 text-secondary fs-5" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
-                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            What is CSS box model?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                            <p>The CSS box model is a container that contains multiple properties including borders,
-                                margin, padding, and the content itself. It is used to create the design and layout of
-                                web pages. It can be used as a toolkit for customizing the layout of different elements.
-                                The web browser renders every element as a rectangular box according to the CSS box
-                                model.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed p-4 text-secondary fs-5" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
-                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            What is a semantic tag in HTML?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-
-                            <strong>Semantic elements</strong> have meaningful names which tells about type of content. For example
-                            header, footer, table, … etc. HTML5 introduces many semantic elements as mentioned below
-                            which make the code easier to write and understand for the developer as well as instructs
-                            the browser on how to treat them. <br>
-                            <strong>Some important semantic tags are: </strong> <br><br>
-                            <ul>
-                                <li>&ltarticle&gt tag</li>
-                                <li>&ltaside&gt   tag</li>
-                                <li>&ltdetail&gt  tag</li>
-                                <li>&ltfigure&gt  tag</li>
-                                <li>&ltfooter&gt  tag</li>
-                                <li>&ltheader&gt  tag</li>
-                                <li>&ltmain&gt    tag</li>
-                                <li>&ltnavt&gt    tag</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
         <!-- end "Question" part -->
         <!-- stat "Trusted by" part -->
